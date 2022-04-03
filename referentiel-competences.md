@@ -70,7 +70,7 @@ Blocs RNCP BC04 Usages digitaux et numériques et BC06 Expression et communicati
 
 ### **Étayer** une présentation avec des courbes, des schémas, des fragments de code, des tableaux de résultats, etc
 
-# **Mener** à bien, seul ou en équipe, des projets informatiques
+# **Mener à bien** un projet informatique seul ou en équipe
 
 Bloc RNCP BC08 Action en responsabilité au sein d'une organisation professionnelle
 
@@ -88,11 +88,11 @@ Bloc RNCP BC08 Action en responsabilité au sein d'une organisation professionne
 
 ## **Réaliser en équipe** de 3 à 5 personnes un projet de fin de Licence
 
-### Rédiger un cahier des charges
+### **Rédiger** un cahier des charges
 
-### Définir des jalons et une répartition des tâches
+### **Définir** des jalons et une répartition des tâches
 
-### Utiliser les fonctionnalités élémentaires (commit, merge,..) d'un outil de gestion de version (ex:git)
+### **Utiliser** les fonctionnalités élémentaires (commit, merge,..) d'un outil de gestion de version (ex:git)
 
 # **Se former** en autonomie et s'adapter aisément à de nouvelles technologies en s'appuyant sur un socle commun de connaissances scientifiques et techniques éprouvées
 
@@ -102,7 +102,7 @@ Bloc BC04 Usages digitaux et numériques
 
 ## **Se tenir informé** des évolutions technologiques en consultant des ressources communautaires (documentations de librairies, dépôts de codes publics, forums, listes de diffusions, etc) en découvrant ses ressources à l'occasion de projets
 
-## **Apprendre** seul un nouveau langage de programmation imposé à l'occasion d'un cours, d'un concours de programmation, ou d'un projet
+## **Apprendre seul** un nouveau langage de programmation imposé à l'occasion d'un cours, d'un concours de programmation, ou d'un projet
 
 # **S'orienter** et affiner son projet professionnel et de poursuites d'études, en révélant ses appétences et ses compétences
 
