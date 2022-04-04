@@ -83,4 +83,4 @@ if __name__ == '__main__':
     with open(src) as fd:
         trees = trees_of_md_lines(fd)
     trees = single_out_verb_in_trees(trees)
-    print(wrap(html_of_trees(trees), css_file=css_file))
+    print(wrap(html_of_trees(trees), css_file=css_file, standalone=True))
