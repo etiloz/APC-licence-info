@@ -79,8 +79,34 @@ def wrap(body, css_file=None, standalone=False):
 </html>
 """
 
+def matrix_of_competence_trees(trees, liste_ues):
+    M = {}
+    for icomp in range(len(trees)):
+        (competence, niveaux_competence) = trees[icomp]
+        niveaux_competence = [x for x in niveaux_competence if type(x)==tuple]
+        for iniv in range(len(niveaux_competence)):
+            (niv, acs) = niveaux_competence[iniv]
+            for iac in range(len(acs)):
+                print(acs[iac])
+                (ac, ues) = acs[iac]
+                ues = [x.strip() for x in " ".join(ues).split(' ')]
+                desc = f'AC{icomp+1}.{iniv+1}.{iac+1}'
+                M[desc] = [ue in ues for ue in liste_ues]
+    return M
+
+def csv_of_matrix(M, liste_ues):
+    res = ';' + ";".join(repr(ue) for ue in liste_ues) + '\n'
+    for desc in M:
+        res += desc + ';' + ";".join('X' if x else '' for x in M[desc]) + '\n'
+    return res
+
+
+
 if __name__ == '__main__':
     with open(src) as fd:
         trees = trees_of_md_lines(fd)
-    trees = single_out_verb_in_trees(trees)
-    print(wrap(html_of_trees(trees), css_file=css_file, standalone=True))
+#    trees = single_out_verb_in_trees(trees)
+#    print(wrap(html_of_trees(trees), css_file=css_file, standalone=True))
+    liste_ues = ['SYS1', 'SYS2', 'RESEAU']
+    M = matrix_of_competence_trees(trees, liste_ues)
+    print(csv_of_matrix(M, liste_ues))

@@ -128,8 +128,6 @@ PYTHON TERD
 
 ## **Réaliser en binôme** un projet de programmation de quelques centaines de lignes (intelligence artificielle pour un jeu, application d'un algorithme à un problème concret, utilitaire shell, ...)
 
-SYS2 C PF COMPILATION
-
 ### **S'initier** au test et à la relecture de code ("extreme programming") en binôme pour débugger un programme en cours de développement
 
 SYS2 C PF COMPILATION
@@ -154,15 +152,16 @@ Bloc BC04 Usages digitaux et numériques
 
 ## **Actualiser** son environnement de travail informatique à l'occasion d'un cours ou d'un projet
 
-PYTHON SYS1 SYS2 C R PF POO ARCHI
-
-## **Se tenir informé** des évolutions technologiques en consultant des ressources communautaires (documentations de librairies, dépôts de codes publics, forums, listes de diffusions, etc) en découvrant ses ressources à l'occasion de projets
-
-UCANCODE SYS2 PF 
+### **Configurer** son ordinateur personnel pour l'utilisation d'un logiciel, d'un sous-système ou d'une machine virtuelle, et pour le travail à distance
+PYTHON SYS1 SYS2 C R PF POO ARCHI CRYPTO
 
 ## **Apprendre seul** un nouveau langage de programmation imposé à l'occasion d'un cours, d'un concours de programmation, ou d'un projet
 
-PARADIGMES UCANCODE FABLAB
+### **Découvrir** des tendances technologiques en articipant à des compétitions informatiques ou des projets innovants
+UCANCODE FABLAB
+
+### **S'adapter** aisément à un nouveau langage
+PARADIGMES
 
 # **S'orienter** et affiner son projet professionnel et de poursuites d'études, en révélant ses appétences et ses compétences
 
@@ -170,16 +169,30 @@ Bloc RNCP BC07 Positionnement vis-à-vis d'un champ professionnel
 
 ## **S'immerger** dans une entreprise ou un laboratoire durant un stage d'été
 
+### **Faire l'expérience** du travail en entreprise
+STAGE
+
+### **Faire l'expérience** du travail en laboratoire
 STAGE
 
 ## **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
 
-UCANCODE FORUMALTERNANCE SEMPRO
+### **Concourir** à une compétition de programmation organisée par des acteurs du secteur privé
+
+UCANCODE
+
+### **Participer** à un séminaire métiers ou un forum de l'alternance
+
+FORUMALTERNANCE SEMPRO
 
 ## **Préparer** un projet d'étude en alternance en participant à une manifestation de promotion de l'alternance
+
+### **Participer** à un forum de l'alternance
 
 FORUMALTERNANCE
 
 ## **S'informer** sur les multiples masters et écoles d'ingénieurs en s'appuyant sur les ressources nationales, les enseignants, et le service d'orientation de l'université
+
+### **Assister** à la réunion d'orientation master, discuter avec les enseignants et le responsable pédagogique
 
 REUNIONPEDA
