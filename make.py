@@ -1,5 +1,5 @@
-src = 'referentiel-competences.md'
-dst = 'matrice-competences.md'
+src_competences = 'referentiel-competences.md'
+src_ues = 'liste-ue.md'
 css_file = 'essai-css.css'
 
 def trees_of_md_lines(lines):
@@ -95,18 +95,30 @@ def matrix_of_competence_trees(trees, liste_ues):
     return M
 
 def csv_of_matrix(M, liste_ues):
-    res = ';' + ";".join(repr(ue) for ue in liste_ues) + '\n'
+    res = ';' + ";".join(f'"{ue}"' for ue in liste_ues) + '\n'
     for desc in M:
         res += desc + ';' + ";".join('X' if x else '' for x in M[desc]) + '\n'
     return res
 
+def tag_of_ue(ue):
+    i, j = ue.index('['), ue.rindex(']')
+    return ue[i+1:j]
 
+def liste_ues_of_trees(ues_trees):
+    res = []
+    for (_, ues) in ues_trees:
+        for (ue,_) in ues:
+            res.append(tag_of_ue(ue))
+    return res
 
 if __name__ == '__main__':
-    with open(src) as fd:
-        trees = trees_of_md_lines(fd)
+    with open(src_competences) as fd:
+        competence_trees = trees_of_md_lines(fd)
+    with open(src_ues) as fd:
+        ues_trees = trees_of_md_lines(fd)
+    liste_ues = liste_ues_of_trees(ues_trees)
 #    trees = single_out_verb_in_trees(trees)
 #    print(wrap(html_of_trees(trees), css_file=css_file, standalone=True))
     liste_ues = ['SYS1', 'SYS2', 'RESEAU']
-    M = matrix_of_competence_trees(trees, liste_ues)
+    M = matrix_of_competence_trees(competence_trees, liste_ues)
     print(csv_of_matrix(M, liste_ues))

@@ -2,7 +2,7 @@
 
 Blocs RNCP BC02 Analyse d'un questionnement en mobilisant des concepts disciplinaires et BC05 Exploitation de données à des fins d'analyse
 
-## **Lire** une modélisation d'un petit système
+## **Analyser** une modélisation d'un petit système
 
 ### **Identifier** à partir d'une description d'un format de données (structures de données, bases de données, etc) de faible complexité l'ensemble des informations qu'il est possible d'en extraire
 
@@ -12,10 +12,15 @@ BDI INTROWEB BDD C RESEAU TECHNOWEB
 
 BDI INTROWEB BDD RESEAU SYS2 IA INTROIA ARCHI
 
+## **Préciser** une modélisation ou une spécification d'un système 
 
-### **Concrétiser** une spécification générale donnée, d'une fonction ou d'un programme, en produisant un jeu d'exemples et de contre-exemples de valeurs des paramètres possibles et des résultats attendus
+### **Instancier** une spécification générale donnée, d'une fonction ou d'un programme, en produisant un jeu d'exemples et de contre-exemples de valeurs des paramètres possibles et des résultats attendus
 
-BDI PYTHON BDD C R POO PF INTROWEB IA INTROIA
+BDI PYTHON BDD C R POO PF INTROWEB
+
+### **Formaliser** une modélisation intuitive avec davantage de rigueur, en s'appuyant par exemple sur un formalisme logique 
+
+IA INTROIA
 
 ## **Produire** une modélisation d'un objet informatique à diverses échelles  (données, fonction, programme, protocole, ...)
 
@@ -75,7 +80,7 @@ Blocs RNCP BC04 Usages digitaux et numériques et BC06 Expression et communicati
 
 ## **Rédiger** avec soin une production écrite technique dans le but de pouvoir se relire et être lu facilement
 
-### **Hiérarchiser** une présentation écrite, ordonner, résumer et développer ses idées à bon escient, en s'appuyant sur des modèles de présentations établis (fiches de révisions, rapport de bug, rapport d'avancement, etc)
+### **Structurer** une présentation écrite, hierarchiser, ordonner, résumer et développer ses idées à bon escient, en s'appuyant sur des modèles de présentations établis (fiches de révisions, rapport de bug, rapport d'avancement, etc)
 
 OFI AUTOMATES SIMULATION TERD
 
@@ -153,9 +158,10 @@ Bloc BC04 Usages digitaux et numériques
 ## **Actualiser** son environnement de travail informatique à l'occasion d'un cours ou d'un projet
 
 ### **Configurer** son ordinateur personnel pour l'utilisation d'un logiciel, d'un sous-système ou d'une machine virtuelle, et pour le travail à distance
+
 PYTHON SYS1 SYS2 C R PF POO ARCHI CRYPTO
 
-## **Apprendre seul** un nouveau langage de programmation imposé à l'occasion d'un cours, d'un concours de programmation, ou d'un projet
+## **Apprendre seul** un nouveau langage de programmation ou un nouveau framework imposé à l'occasion d'un cours, d'un concours de programmation, ou d'un projet
 
 ### **Découvrir** des tendances technologiques en articipant à des compétitions informatiques ou des projets innovants
 UCANCODE FABLAB
@@ -167,32 +173,32 @@ PARADIGMES
 
 Bloc RNCP BC07 Positionnement vis-à-vis d'un champ professionnel
 
-## **S'immerger** dans une entreprise ou un laboratoire durant un stage d'été
-
-### **Faire l'expérience** du travail en entreprise
-STAGE
-
-### **Faire l'expérience** du travail en laboratoire
-STAGE
-
-## **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
-
-### **Concourir** à une compétition de programmation organisée par des acteurs du secteur privé
-
-UCANCODE
-
-### **Participer** à un séminaire métiers ou un forum de l'alternance
-
-FORUMALTERNANCE SEMPRO
-
-## **Préparer** un projet d'étude en alternance en participant à une manifestation de promotion de l'alternance
-
-### **Participer** à un forum de l'alternance
-
-FORUMALTERNANCE
-
 ## **S'informer** sur les multiples masters et écoles d'ingénieurs en s'appuyant sur les ressources nationales, les enseignants, et le service d'orientation de l'université
 
 ### **Assister** à la réunion d'orientation master, discuter avec les enseignants et le responsable pédagogique
 
 REUNIONPEDA
+
+### **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
+
+UCANCODE FORUMALTERNANCE
+
+## **Préparer** un projet de poursuite d'étude, notamment en alternance, ou une poursuite en milieu professionnel, en participant à une manifestation (forum de l'alternance, etc)
+
+### **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
+
+FORUMALTERNANCE SEMPRO
+
+### **Enrichir** son CV et son réseau en participant à une compétition de programmation organisée par des acteurs du secteur privé
+
+UCANCODE
+
+## **S'immerger** dans une entreprise ou un laboratoire durant un stage d'été
+
+### **Faire l'expérience** du travail en entreprise
+
+STAGE
+
+### **Faire l'expérience** du travail en laboratoire
+
+STAGE

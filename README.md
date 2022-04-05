@@ -7,3 +7,5 @@
 - [liste-ue.md](liste-ue.md) liste les UE (et autres actions professionnalisantes) dispensées en Licence. Chaque UE a une description longue et un tag (repris dans le fichier referentiel-competences.md)
 
 - [make.py](make.py) génère la page html (et un fichier tableur si c'est vraiment nécessaire?)
+
+- [essai-css.css](essai-css.css) fichier de style (avec mes connaissances, faibles, en web, et mes connaissances, nulles, en infographie)
