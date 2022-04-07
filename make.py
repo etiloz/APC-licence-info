@@ -7,6 +7,7 @@ dst_ues = 'liste-ues.html'
 css_file = 'essai-css.css'
 
 import os
+import shutil
 
 def trees_of_md_lines(lines):
     children_at_level = [[]]
@@ -85,6 +86,7 @@ def wrap_in_doc(title, body, css_file=None, standalone=False):
             with open(css_file) as fd:
                 css_content = f"<style>\n{fd.read()}</style>\n"
         else:
+            shutil.copy(css_file, build_dir)
             css_content = f'<link rel="stylesheet" href="{css_file}">'
     return f"""<!DOCTYPE html>
 <html>
