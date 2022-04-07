@@ -7,6 +7,7 @@ dst_ues = 'liste-ues.html'
 css_file = 'essai-css.css'
 
 import os
+import shutil
 
 def trees_of_md_lines(lines):
     children_at_level = [[]]
@@ -85,6 +86,7 @@ def wrap_in_doc(title, body, css_file=None, standalone=False):
             with open(css_file) as fd:
                 css_content = f"<style>\n{fd.read()}</style>\n"
         else:
+            shutil.copy(css_file, build_dir)
             css_content = f'<link rel="stylesheet" href="{css_file}">'
     return f"""<!DOCTYPE html>
 <html>
@@ -190,7 +192,7 @@ if __name__ == '__main__':
     except : pass
     with open(os.path.join(build_dir, dst_competences), "w") as fd: 
         fd.write(ref_comp_html)
-    liste_ues_html = wrap_in_doc("Unités d'enseignements et activité péri-universitaires de la licence informatique", html_of_ues(dic_ues, ues_trees), css_file=css_file, standalone=False)
+    liste_ues_html = wrap_in_doc("Unités d'enseignements et activité péri-universitaires de la licence informatique", html_of_ues(dic_ues, ues_trees), css_file=css_file, standalone=True)
     with open(os.path.join(build_dir,dst_ues), "w") as fd: 
         fd.write(liste_ues_html)
     M = matrix_of_competence_trees(competence_trees, liste_ues)

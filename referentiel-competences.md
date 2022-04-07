@@ -4,11 +4,11 @@ Blocs RNCP BC02 Analyse d'un questionnement en mobilisant des concepts disciplin
 
 ## **Analyser** une modélisation d'un petit système
 
-### **Identifier** à partir d'une description d'un format de données (structures de données, bases de données, etc) de faible complexité l'ensemble des informations qu'il est possible d'en extraire
+### **Identifier** à partir d'une description d'un format de données (structures de données, bases de données, ...) de faible complexité l'ensemble des informations qu'il est possible d'en extraire
 
 BDI INTROWEB BDD C RESEAU TECHNOWEB
 
-### **Interpréter** un schéma technique (d'un protocole, d'un processus, d'une machine abstraite, d'un ensemble de données...) et le restituer en langage naturel
+### **Interpréter** un schéma technique (d'un protocole, d'un processus, d'une machine abstraite, d'un ensemble de données, ...) et le restituer en langage naturel
 
 BDI INTROWEB BDD RESEAU SYS2 IA INTROIA ARCHI
 
@@ -28,7 +28,7 @@ IA INTROIA
 
 BDI BDD OFI RESEAU SYS2 POO AUTOMATES PARADIGMES IA INTROIA CRYPTO ARCHI
 
-### **Définir** un format de données (structure de données, base de données, système de fichiers, etc) adapté à un problème de gestion de données élémentaire
+### **Définir** un format de données (structure de données, base de données, système de fichiers, ...) adapté à un problème de gestion de données élémentaire
 
 PYTHON BDD SYS1 SYS2 C R PF POO SIMULATION TERD TECHNOWEB
 
@@ -42,7 +42,7 @@ Blocs RNCP BC03 Mise en oeuvre de méthodes et d'outils du champ disciplinaire e
 
 ## **Identifier** une solution connue à un problème connu 
 
-### **Reconnaître** un cas d'application directe d'un algorithme "classique" (recherche, tri, graphes, etc)
+### **Reconnaître** un cas d'application directe d'un algorithme "classique" (recherche, tri, graphes, ...)
 
 ALGO1 ALGO2 PYTHON C R PF POO IA INTROIA
 
@@ -56,7 +56,7 @@ PYTHON C R PF POO
 
 ALGO2 AUTOMATES GODEL
 
-### **Assembler** plusieurs solutions connues (algorithmes, fonctions de librairies, utilitaires, etc) pour résoudre un problème en le décomposant en sous-problèmes connus
+### **Assembler** plusieurs solutions connues (algorithmes, fonctions de librairies, utilitaires, ...) pour résoudre un problème en le décomposant en sous-problèmes connus
 
 ALGO1 ALGO2 OFI AUTOMATES PYTHON C R PF POO
 
@@ -66,39 +66,39 @@ ALGO1 ALGO2 OFI AUTOMATES PYTHON C R PF POO
 
 PYTHON C R PF POO TERD SIMULATION SYS1 SYS2
 
-### **Comparer** plusieurs solutions (programmes, algorithmes, etc) en analysant leurs coûts (en temps, en espace, en communications, etc)
+### **Comparer** plusieurs solutions (programmes, algorithmes, ...) en analysant leurs coûts (en temps, en espace, en communications, ...)
 
 PYTHON C R PF POO ALGO1 ALGO2 CRYPTO
 
-### **Optimiser** un programme ou un algorithme donné en rafinant certains choix (de structures de données, d'ordre des opérations, etc)
+### **Optimiser** un programme ou un algorithme donné en rafinant certains choix (de structures de données, d'ordre des opérations, ...)
 
 PYTHON C R PF POO ALGO1 ALGO2
 
-# **Communiquer** en français ou en anglais à l'écrit ou à l'oral en utilisant divers outils informatiques et divers types de supports (rapports, transparents, code source, schémas, etc)
+# **Communiquer** en français ou en anglais à l'écrit ou à l'oral en utilisant divers outils informatiques et divers types de supports (rapports, transparents, code source, schémas, ...)
 
 Blocs RNCP BC04 Usages digitaux et numériques et BC06 Expression et communication écrite ou orale
 
 ## **Rédiger** avec soin une production écrite technique dans le but de pouvoir se relire et être lu facilement
 
-### **Structurer** une présentation écrite, hierarchiser, ordonner, résumer et développer ses idées à bon escient, en s'appuyant sur des modèles de présentations établis (fiches de révisions, rapport de bug, rapport d'avancement, etc)
+### **Structurer** une présentation écrite, hierarchiser, ordonner, résumer et développer ses idées à bon escient, en s'appuyant sur des modèles de présentations établis (fiches de révisions, rapport de bug, rapport d'avancement, ...)
 
 OFI AUTOMATES SIMULATION TERD
 
-### **Embellir** son code et en faciliter la lecture, en adoptant des règles de rédaction de codes établies ("litterate programming", en particulier indentation, choix des identifiants, utilisation des commentaires, etc)
+### **Embellir** son code et en faciliter la lecture, en adoptant des règles de rédaction de codes établies ("litterate programming", en particulier indentation, choix des identifiants, utilisation des commentaires, ...)
 
 PYTHON C R PF POO PARADIGMES TERD
 
 ## **Échanger** des informations en s'appuyant sur des standards informatiques
 
-### **Mettre en ligne** une réalisation personnelle (documentation, code, site web) en s'appuyant sur les standards du web (XML, CSS, etc)
+### **Mettre en ligne** une réalisation personnelle (documentation, code, site web) en s'appuyant sur les standards du web (XML, CSS, ...)
 
 INTROWEB TECHNOWEB
 
-### **Contribuer** à des ressources communautaires techniques (forums de discussions, sites d'entraides, etc) en français et en anglais
+### **Contribuer** à des ressources communautaires techniques (forums de discussions, sites d'entraides, ...) en français et en anglais
 
 TERD
 
-### **Sécuriser** un échange d'informations en s'appuyant sur des concepts cryptographiques et protocolaires (authentification, chiffrement, signature, etc)
+### **Sécuriser** un échange d'informations en s'appuyant sur des concepts cryptographiques et protocolaires (authentification, chiffrement, signature, ...)
 
 CRYPTO
 
@@ -108,11 +108,11 @@ CRYPTO
 
 COMPILATION TERD SIMULATION
 
-### **Rédiger** un rapport de projet scientifique en utilisant des outils adaptés (correcteur orthographique, mise en page de qualité typographique, gestion des références bibliographiques, etc)
+### **Rédiger** un rapport de projet scientifique en utilisant des outils adaptés (correcteur orthographique, mise en page de qualité typographique, gestion des références bibliographiques, ...)
 
 TERD SIMULATION
 
-### **Étayer** une présentation avec des courbes, des schémas, des fragments de code, des tableaux de résultats, etc
+### **Étayer** une présentation avec des courbes, des schémas, des fragments de code, des tableaux de résultats, ...
 
 TERD SIMULATION
 
@@ -125,7 +125,7 @@ Bloc RNCP BC08 Action en responsabilité au sein d'une organisation professionne
 
 ### **Utiliser** une librairie de dessin ou une interface graphique
 
-PYTHON TERD
+PYTHON R TERD
 
 ### **Mettre en oeuvre** le modèle vue calcul
 
@@ -135,7 +135,7 @@ PYTHON TERD
 
 ### **S'initier** au test et à la relecture de code ("extreme programming") en binôme pour débugger un programme en cours de développement
 
-SYS2 C PF COMPILATION
+SYS2 C R PF COMPILATION
 
 ### **Exploiter** une proposition de découpage d'un projet en plusieurs composants pour se répartir le travail de développement au sein d'un binôme
 
@@ -179,7 +179,7 @@ Bloc RNCP BC07 Positionnement vis-à-vis d'un champ professionnel
 
 REUNIONPEDA
 
-## **Préparer** un projet de poursuite d'étude, notamment en alternance, ou une poursuite en milieu professionnel, en participant à une manifestation (forum de l'alternance, etc)
+## **Préparer** un projet de poursuite d'étude, notamment en alternance, ou une poursuite en milieu professionnel, en participant à une manifestation (forum de l'alternance, ...)
 
 ### **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
 
