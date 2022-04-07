@@ -179,10 +179,6 @@ Bloc RNCP BC07 Positionnement vis-à-vis d'un champ professionnel
 
 REUNIONPEDA
 
-### **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires
-
-UCANCODE FORUMALTERNANCE
-
 ## **Préparer** un projet de poursuite d'étude, notamment en alternance, ou une poursuite en milieu professionnel, en participant à une manifestation (forum de l'alternance, etc)
 
 ### **Rencontrer** des professionnels du secteur informatique, publics et privés, à l'occasion de concours ou de séminaires

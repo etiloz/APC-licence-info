@@ -12,12 +12,18 @@ details {
     padding: 1rem;
     display: block;
     background: #333;
-    color: aqua;
     padding-left: 2.2rem;
     position: relative;
     cursor: pointer;
   }
   
+  .verb {
+    color: aqua;
+  }
+
+  .RNCP {
+    color:darkorange;
+  }
   summary:before {
     content: '';
     border-width: .4rem;
