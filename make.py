@@ -1,8 +1,12 @@
+build_dir = 'build'
 src_competences = 'referentiel-competences.md'
 dst_competences = 'referentiel-competences.html'
+dst_matrix = 'matrice-competences-ues.csv'
 src_ues = 'liste-ue.md'
 dst_ues = 'liste-ues.html'
 css_file = 'essai-css.css'
+
+import os
 
 def trees_of_md_lines(lines):
     children_at_level = [[]]
@@ -74,7 +78,7 @@ def html_of_tree(tree, level=0):
 {html_of_trees(trees, level+1)}
 </details>"""
 
-def wrap(body, css_file=None, standalone=False):
+def wrap_in_doc(title, body, css_file=None, standalone=False):
     css_content = ''
     if css_file != None:
         if standalone:
@@ -86,9 +90,11 @@ def wrap(body, css_file=None, standalone=False):
 <html>
 <head>
 <meta charset="utf-8"/>
+<title>{title}</title>
 {css_content}
 </head>
 <body>
+<h1>{title}</h1>
 {body}
 </body>
 </html>
@@ -179,12 +185,14 @@ if __name__ == '__main__':
         ues_trees = trees_of_md_lines(fd)
     liste_ues = liste_ues_of_trees(ues_trees)
     dic_ues = dic_ues_of(liste_ues, competence_trees)
-    print(dic_ues)
-    input()
-    ref_comp_html = wrap(html_of_trees(competence_trees), css_file=css_file, standalone=True)
-    with open(dst_competences, "w") as fd: fd.write(ref_comp_html)
-    liste_ues_html = wrap(html_of_ues(dic_ues, ues_trees))
-    with open(dst_ues, "w") as fd: fd.write(liste_ues_html)
-#    liste_ues = ['SYS1', 'SYS2', 'RESEAU']
-#    M = matrix_of_competence_trees(competence_trees, liste_ues)
-#    print(csv_of_matrix(M, liste_ues))
+    ref_comp_html = wrap_in_doc('Référentiel de compétences de la licence informatique', html_of_trees(competence_trees), css_file=css_file, standalone=True)
+    try : os.mkdir(build_dir)
+    except : pass
+    with open(os.path.join(build_dir, dst_competences), "w") as fd: 
+        fd.write(ref_comp_html)
+    liste_ues_html = wrap_in_doc("Unités d'enseignements et activité péri-universitaires de la licence informatique", html_of_ues(dic_ues, ues_trees), css_file=css_file, standalone=False)
+    with open(os.path.join(build_dir,dst_ues), "w") as fd: 
+        fd.write(liste_ues_html)
+    M = matrix_of_competence_trees(competence_trees, liste_ues)
+    with open(os.path.join(build_dir, dst_matrix), "w") as fd: 
+        fd.write(csv_of_matrix(M, liste_ues))
