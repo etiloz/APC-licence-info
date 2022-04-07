@@ -125,7 +125,7 @@ Bloc RNCP BC08 Action en responsabilité au sein d'une organisation professionne
 
 ### **Utiliser** une librairie de dessin ou une interface graphique
 
-PYTHON TERD
+PYTHON R TERD
 
 ### **Mettre en oeuvre** le modèle vue calcul
 
@@ -135,7 +135,7 @@ PYTHON TERD
 
 ### **S'initier** au test et à la relecture de code ("extreme programming") en binôme pour débugger un programme en cours de développement
 
-SYS2 C PF COMPILATION
+SYS2 C R PF COMPILATION
 
 ### **Exploiter** une proposition de découpage d'un projet en plusieurs composants pour se répartir le travail de développement au sein d'un binôme
 
