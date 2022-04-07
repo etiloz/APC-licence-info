@@ -190,7 +190,7 @@ if __name__ == '__main__':
     except : pass
     with open(os.path.join(build_dir, dst_competences), "w") as fd: 
         fd.write(ref_comp_html)
-    liste_ues_html = wrap_in_doc("Unités d'enseignements et activité péri-universitaires de la licence informatique", html_of_ues(dic_ues, ues_trees), css_file=css_file, standalone=False)
+    liste_ues_html = wrap_in_doc("Unités d'enseignements et activité péri-universitaires de la licence informatique", html_of_ues(dic_ues, ues_trees), css_file=css_file, standalone=True)
     with open(os.path.join(build_dir,dst_ues), "w") as fd: 
         fd.write(liste_ues_html)
     M = matrix_of_competence_trees(competence_trees, liste_ues)
