@@ -119,16 +119,25 @@ def iter_on_competence_trees(trees):
                     'ues': ues
                 }
 
+def competence_of_item(item):
+    return f'C{item["icomp"]+1} {item["competence"]}'
+
+def niveau_of_item(item):
+    return f'NC{item["icomp"]+1}.{item["iniv"]+1} {item["niv"]}'
+
+def ac_of_item(item):
+    return f'AC{item["icomp"]+1}.{item["iniv"]+1}.{item["iac"]+1} {item["ac"]}'
+
 def matrix_of_competence_trees(trees, liste_ues):
     M = {}
     for item in iter_on_competence_trees(trees): 
         ues = [x.strip() for x in " ".join(item['ues']).split(' ')]
-        desc = f'AC{item["icomp"]+1}.{item["iniv"]+1}.{item["iac"]+1}'
+        desc = f"{competence_of_item(item)};{niveau_of_item(item)};{ac_of_item(item)}".replace('*', '')
         M[desc] = [ue in ues for ue in liste_ues]
     return M
 
 def csv_of_matrix(M, liste_ues):
-    res = ';' + ";".join(f'"{ue}"' for ue in liste_ues) + '\n'
+    res = ';;;' + ";".join(f'"{ue}"' for ue in liste_ues) + '\n'
     for desc in M:
         res += desc + ';' + ";".join('X' if x else '' for x in M[desc]) + '\n'
     return res
